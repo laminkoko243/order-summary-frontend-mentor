@@ -124,8 +124,8 @@ span p {
 
 /* ==================== Attribution ==================== */
 
-.attribution { font-size: 14px; text-align: center;}
-.attribution a { color: hsl(228, 45%, 44%); text-decoration: none; font-weight: 500; }
+footer { font-size: 14px; text-align: center;}
+footer a { color: hsl(228, 45%, 44%); text-decoration: none; font-weight: 500; }
 
 @media (max-width: 1440px) {
     .payment {
@@ -149,7 +149,7 @@ span p {
         padding: 10px 45px;
     }
 
-    .attribution {
+    footer {
         /* width: 70px;
         margin: auto; */
         font-size: 10px;
