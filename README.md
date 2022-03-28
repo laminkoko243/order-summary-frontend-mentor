@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/laminkoko243/order-summary-frontend-mentor)
-- Live Site URL: [Add live site URL here](https://github.com/laminkoko243/https://laminkoko243.github.io/order-summary-frontend-mentor/)
+- Live Site URL: [Add live site URL here](https://laminkoko243.github.io/order-summary-frontend-mentor/)
 
 ## My process
 
@@ -39,7 +39,6 @@ Users should be able to:
 - CSS
 - Flexbox
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -50,7 +49,6 @@ A div can be centered with position: absolute; top: 50%; left: 50%; transform: t
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
@@ -62,5 +60,4 @@ I am still having struggle to code on my own without tutorials. I need to practi
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/laminkoko243)
 - Twitter - [@yourusername](https://www.twitter.com/laminkoko243)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
