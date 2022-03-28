@@ -12,21 +12,23 @@ body {
 }
 
 main {
+    display: flex;
     min-height: 97vh;
     width: 100%;
     background: url(images/pattern-background-desktop.svg) no-repeat top center;
+    background
     background-size: contain;
     background-color: #e0e8ff;
-    position: relative;
+/*     position: relative; */
 }
 
 .payment {
     width: 30%;
-    /* margin: auto; */
-    position: absolute;
+    margin: auto;
+/*     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     border-radius: 20px;
     text-align: center;
     background-color: white;
