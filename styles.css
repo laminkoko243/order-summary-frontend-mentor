@@ -11,7 +11,7 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-section {
+main {
     min-height: 97vh;
     width: 100%;
     background: url(images/pattern-background-desktop.svg);                                           /*to edit later */
