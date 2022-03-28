@@ -1,0 +1,157 @@
+/* ==================== Google Fonts ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+section {
+    min-height: 97vh;
+    width: 100%;
+    background: url(images/pattern-background-desktop.svg);                                           /*to edit later */
+    /* background-position: center; */
+    background-size: cover;
+    position: relative;
+}
+
+.payment {
+    width: 30%;
+    /* margin: auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.payment-img {
+    width: 100%;
+}
+
+.payment h1 {
+    margin-top:30px;
+    font-weight: 900;
+}
+
+.paragraph-text {
+    color:  hsl(224, 23%, 55%);
+    width: 70%;
+    margin: 20px auto;
+    /* margin-top: 10px; */
+    /* font-weight: 500; */
+}
+
+/* ==================== Plan division ==================== */
+.row {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 30px;
+}
+
+.col {
+    display: flex;
+    margin: 12px;
+    align-items: center;
+}
+
+.col img {
+    padding-right: 10px;
+    size: 2px;
+    /* display: inline-block; */
+}
+
+.col a {
+    color : hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.col a:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+/* span {
+    display: inline-block;
+} */
+
+span h2 {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+span p {
+    color: hsl(224, 23%, 55%);
+}   
+
+.payment-btn {
+    margin-top: 30px;
+    padding: 10px 90px;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.payment-btn:hover  {
+    background-color:  hsl(224, 23%, 55%);
+}
+
+.cancel-order-btn {
+    font-size: 14px;
+    display: block;
+    margin: 30px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.cancel-order-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+/* ==================== Attribution ==================== */
+
+.attribution { font-size: 14px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none; font-weight: 500; }
+
+@media (max-width: 1440px) {
+    .payment {
+        width: 80%;
+    }
+    span h2 {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+    span p {
+        font-size: 12px;
+    }
+
+    .col a {
+        font-size: 12px;
+    }
+
+    .payment-btn {
+        padding: 10px 45px;
+    }
+
+    .attribution {
+        /* width: 70px;
+        margin: auto; */
+        font-size: 10px;
+    }
+}
