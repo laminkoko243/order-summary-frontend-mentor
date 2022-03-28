@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-A div can be centered with position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%).
+- A div can be centered with position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%).
 - All contents should be inside landmark rather than a section.
 - a page should include one main landmark
 - block elements should not be included in span because span is an inline element. use instead div.
