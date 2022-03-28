@@ -87,12 +87,12 @@ section {
     display: inline-block;
 } */
 
-span h2 {
+.span h2 {
     font-size: 16px;
     font-weight: 900;
 }
 
-span p {
+.span p {
     color: hsl(224, 23%, 55%);
 }   
 
@@ -131,13 +131,13 @@ footer a { color: hsl(228, 45%, 44%); text-decoration: none; font-weight: 500; }
     .payment {
         width: 80%;
     }
-    span h2 {
+    .span h2 {
         text-align: left;
         font-size: 12px;
         font-weight: 900;
     }
 
-    span p {
+    .span p {
         font-size: 12px;
     }
 
