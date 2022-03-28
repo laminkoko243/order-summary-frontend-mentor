@@ -14,9 +14,9 @@ body {
 main {
     min-height: 97vh;
     width: 100%;
-    background: url(images/pattern-background-desktop.svg);                                           /*to edit later */
-    /* background-position: center; */
-    background-size: cover;
+    background: url(images/pattern-background-desktop.svg) no-repeat top center;
+    background-size: contain;
+    background-color: #e0e8ff;
     position: relative;
 }
 
