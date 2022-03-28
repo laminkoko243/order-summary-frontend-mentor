@@ -46,7 +46,7 @@ Users should be able to:
 - All contents should be inside landmark rather than a section.
 - a page should include one main landmark
 - block elements should not be included in span because span is an inline element. use instead div.
-- use button with <button>
+- use button to button
 - Never use position to center a div. Use flexbox or grid instead.
 - Use relative units of measurement like rem.
 
